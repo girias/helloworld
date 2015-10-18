@@ -1,0 +1,64 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "https://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=C7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE&amp;num=1&amp;sig=AOD64_00zWlUkTJd5_G8zS071tv9f4PwrQ&amp;ctype=21&amp;video_id=ApMsZ3jsevY&amp;client=ca-pub-6219811747049371&amp;adurl=http://www.youtube.com/user/bellsmachining%3Fv%3DApMsZ3jsevY"; 
+google_ad.visible_url = "youtube.com/bellsmachining"; 
+google_ad.view_count = 4237;
+google_ad.duration = 257000;
+google_ad.display_name = "BellsMachining";
+google_ad.log_info = "BYa9L1ckGVo7lGoWwpgPk44LICQC5lP6Z5wEAABABOAHIAQGgBhrCEwMQgAE";
+google_ad.activeview_cid = "5Ghs8xpAWk5g-rU6AYUci66gxG4";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_js_tos_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Bells Firewood Processor"; 
+google_ad.line2 = "The 4000 Series firewood processors"; 
+google_ad.line3 = "44\x26#8243; Circular Saw that cuts 20\x26#8243; wood"; 
+google_ad.regionname = ""; 
+google_ad.media_template_data = [ 
+{ 
+"destinationPage" : "2", 
+"description2" : "44″ Circular Saw that cuts 20″ wood", 
+"description1" : "The 4000 Series firewood processors", 
+"videoThumbnail" : "3", 
+"channelName" : "bellsmachining", 
+"headline" : "Bells Firewood Processor", 
+"videoId" : "ApMsZ3jsevY", 
+"imageUrl" : "http://i4.ytimg.com/vi/ApMsZ3jsevY/3.jpg" 
+} 
+]; 
+google_ad.engaged_view_url = "https://googleads.g.doubleclick.net/aclk?sa\x3dl\x26ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26num\x3d1\x26sig\x3dAOD64_00zWlUkTJd5_G8zS071tv9f4PwrQ\x26ctype\x3d18\x26video_id\x3dApMsZ3jsevY\x26client\x3dca-pub-6219811747049371\x26adurl\x3dhttp://www.youtube.com/user/bellsmachining%3Fv%3DApMsZ3jsevY"; 
+google_ad.conversion_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU"; 
+google_ad.view_url = ""; 
+google_ad.checked_events = ""; 
+google_ad.mute_gone = "It\x27s gone."; 
+google_ad.mute_question = "What was wrong with this ad?"; 
+google_ad.mute_undo = "Undo"; 
+google_ad.mute_hover_text = "Stop seeing this ad"; 
+google_ad.mute_interaction_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU\x26label\x3duser_feedback_menu_interaction\x26cbt\x3dmGds7fuJE_oIuZT-mecBELH5siMYj7zNESIaeW91dHViZS5jb20vYmVsbHNtYWNoaW5pbmcyCAgFExjuoBoUOPb1scf3jMvJAkIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIAFgaYA1osorV8wFwAQ"; 
+google_ad.mute_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU\x26label\x3duser_feedback_menu_option\x26label_instance\x3d1\x26cbt\x3dmGds7fuJE_oIuZT-mecBELH5siMYj7zNESIaeW91dHViZS5jb20vYmVsbHNtYWNoaW5pbmcyCAgFExjuoBoUOPb1scf3jMvJAkIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIAFgaYA1osorV8wFwAQ"; 
+google_ad.mute_undo_url = "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU\x26label\x3duser_feedback_undo\x26label_instance\x3d1\x26cbt\x3dmGds7fuJE_oIuZT-mecBELH5siMYj7zNESIaeW91dHViZS5jb20vYmVsbHNtYWNoaW5pbmcyCAgFExjuoBoUOPb1scf3jMvJAkIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIAFgaYA1osorV8wFwAQ"; 
+google_ad.mute_survey = {"Inappropriate" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU\x26label\x3dmute_survey_option\x26label_instance\x3d8\x26cbt\x3dmGds7fuJE_oIuZT-mecBELH5siMYj7zNESIaeW91dHViZS5jb20vYmVsbHNtYWNoaW5pbmcyCAgFExjuoBoUOPb1scf3jMvJAkIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIAFgaYA1osorV8wFwAQ", 
+"Irrelevant" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU\x26label\x3dmute_survey_option\x26label_instance\x3d7\x26cbt\x3dmGds7fuJE_oIuZT-mecBELH5siMYj7zNESIaeW91dHViZS5jb20vYmVsbHNtYWNoaW5pbmcyCAgFExjuoBoUOPb1scf3jMvJAkIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIAFgaYA1osorV8wFwAQ", 
+"Repetitive" : "https://googleads.g.doubleclick.net/pagead/conversion/?ai\x3dC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26sigh\x3dXJ0j4Cva8mU\x26label\x3dmute_survey_option\x26label_instance\x3d2\x26cbt\x3dmGds7fuJE_oIuZT-mecBELH5siMYj7zNESIaeW91dHViZS5jb20vYmVsbHNtYWNoaW5pbmcyCAgFExjuoBoUOPb1scf3jMvJAkIXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzFIAFgaYA1osorV8wFwAQ" 
+}; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.youtube.com/video/o1qNLjZUvu4%26gl%3DUS%26hl%3Den%26client%3Dca-pub-6219811747049371%26ai0%3DC7K6K1ckGVo7lGoWwpgPk44LICfGZzLYHuZT-mecBwI23ARABIOP7kwNgyY7biZSkmBOgAYf6pO0DyAEBqQKLDr1H1jKpPqgDAaoEfE_Q1ZSzNvUtXClQOOjwzSEQBUEfryNh_0h2JjdL0ge4T3yzNKeJQbcWSP7pn-Lz-MlSqANqrBtzeKfwFzpKwIz__SHk7lKdYqPX2TDumm3Lf2E3v8jsIiFgSeEoQnnbH5gRtcpwY349FtzZXZspl7kyfCqIYxl1Rg-wbjygBhrIBun1yZPnAYAH4YXbEqgHpr4bqAe1wRvYBwE\x26usg\x3dAFQjCNE6xzD_1dvgFwAoMZ6ePOtD_EZM5A";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}
